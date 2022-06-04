@@ -10,12 +10,14 @@ const Navbar = () => {
     { name: "CONTACT", link: "/" },
   ];
   return (
-    <div className="navbar shadow-lg w-full fixed top-0 left-0 md:px-10 px-7 md:flex py-4 items-center justify-between">
-      <div className="font-bold text-2xl cursor-pointer ">Portfolio</div>
+    <div className="navbar shadow-lg w-full fixed top-0 left-0 md:px-10 px-7">
+      <div className="md:flex md:items-center justify-between py-4">
+        <div className="font-bold text-2xl cursor-pointer ">Portfoli</div>
+      </div>
       <ul>
         {links.map((link) => (
           <li>
-            <a className="text-white mr-5" href={link.link}>
+            <a className="text-white" href={link.link}>
               {link.name}
             </a>
           </li>
