@@ -12,7 +12,7 @@ const Navbar = () => {
   return (
     <div className="navbar shadow-lg w-full fixed top-0 left-0 md:px-10 px-7">
       <div className="md:flex md:items-center justify-between py-4">
-        <div className="font-bold text-2xl cursor-pointer ">Portfolio</div>
+        <div className="font-bold text-2xl cursor-pointer ">Portfoli</div>
       </div>
       <ul>
         {links.map((link) => (
